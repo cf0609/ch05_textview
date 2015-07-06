@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+        />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="更复杂的设置"
+        android:background="#ffffff"
+        android:textColor="#ff00ff"
+        android:padding="30dp"
+        android:layout_margin="50dp"
+        />
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f0ff"
+        android:textSize="30dp"
+        android:background="#ffffff"
+        android:text="可以在这里设置textview的文本"
+        />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>
